@@ -1,9 +1,10 @@
 import classes from'./CSS/index.module.css';
 import logo from "./Assets/Logos/Logo png01.png";
 import card_bg from "./Assets/Images/9c31e0159999957.63aafa94bdec1.png";
-import hero from "./Assets/Images/hero1.avif";
+import hero from "./Assets/Images/hero5.webp";
 import user_img from "./Assets/Images/profile-pic.png";
 import video_slide from "./Assets/video/15534c0cdf1d35ded22cd9442de1aec2_FrhosDmWAAI7GPI.mp4";
+import ceo from "./Assets/Images/user.avif";
 
 function App() {
   return (
@@ -20,7 +21,9 @@ function App() {
               </ul>
 
               <div className={classes.nav_action_btn_wrapper}>
+                <a href="mailto: mindforgetechnologies@gmail.com">
                   <button className={classes.mail_btn}>Mail Us</button>
+                </a>
               </div>
           </div>
       </nav>
@@ -32,16 +35,16 @@ function App() {
                   <button className={classes.custom_tag}>#MindForge</button>
                    {/* <h1>Freedom for <br/> your creative ideas</h1> */}
                   <h1>Freedom for <br/> your creative ideas</h1>
-                  <p>break your limits in making your grapgics designs, branding and lots more with todays best online Graphics tutor and agency Mind Forge</p>
+                  <p>Unleash Your Visual Potential! We're a cutting-edge graphics agency specializing in design, Photoshop wizardry, CorelDRAW mastery, Canva finesse, Figma tutoring, and much more. Forge your ideas into stunning reality with our creative expertise!</p>
                   <div className={classes.hero_btn_wrapper}>
                       <button className={classes.custom_btn}>Try now</button>
                       <button className={classes.custom_btn}>How it works</button>
                   </div>
-                  <div className={classes.nav_logo_wrapper}>
+                  {/* <div className={classes.nav_logo_wrapper}>
                       <div>Canva</div>
                       <div>Figma</div>
                       <div>CoreDraw</div>
-                  </div>
+                  </div> */}
               </div>
           </div>
       </section>
@@ -91,7 +94,9 @@ function App() {
 
     <section className={classes.our_user_section}>
         <div className={classes.out_user_container}>
-            <img src={user_img} alt="" className={classes.our_user_img} />
+            <div className={classes.our_user_image_wrapper}>
+                <img src={ceo} alt="" className={classes.our_user_img} />
+            </div>
             <div className={classes.user_section_content}>
                 <button className={classes.custom_tag}>#OurUser</button>
                 <h2 className={classes.user_section_heading}>What Professionals say about our products</h2>
@@ -152,7 +157,6 @@ function App() {
       <div className={classes.call_to_action_section}>
           <div className={classes.call_to_action_box}>
               <h1>Get Started with Video</h1>
-              import logo from "./Assets/Logos/Logo png01.png";
               <p>Subscribe and find super attractive <br/> price quotes from us</p>
               <button className={classes.get_started}>Get Started</button>
           </div>
