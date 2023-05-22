@@ -5,6 +5,7 @@ import hero from "./Assets/Images/hero5.webp";
 import user_img from "./Assets/Images/profile-pic.png";
 import video_slide from "./Assets/video/15534c0cdf1d35ded22cd9442de1aec2_FrhosDmWAAI7GPI.mp4";
 import ceo from "./Assets/Images/user.avif";
+import Trustedby from './Components/Trustedby';
 
 function App() {
   return (
@@ -48,7 +49,7 @@ function App() {
               </div>
           </div>
       </section>
-
+      <Trustedby />
       <div className={classes.festures_section}>
           <div className={classes.features_section_content_wrapper}>
               <div className={classes.features_section_top}>
