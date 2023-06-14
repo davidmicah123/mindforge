@@ -1,0 +1,23 @@
+.login_form{
+    width: 30vw;
+    padding: 1.2rem 1rem;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.123);
+    border-radius: 1rem;
+    margin: 7rem auto;
+}
+.login_form_header{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.single_input_box{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    width: 100%;
+}
+.login_input{
+    padding: 0.3rem;
+    font-size: 1.1rem;
+    font-family: inherit;
+    border: 1px solid #eee;
+}
