@@ -1,0 +1,15 @@
+.trusted_area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 0;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.trusted_by_logo_wrapper{
+    display: flex;
+    justify-content: space-around;
+    gap: 2rem;
+    font-size: 1.4rem;
+}

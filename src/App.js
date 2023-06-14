@@ -5,31 +5,15 @@ import hero from "./Assets/Images/hero5.webp";
 import user_img from "./Assets/Images/profile-pic.png";
 import video_slide from "./Assets/video/15534c0cdf1d35ded22cd9442de1aec2_FrhosDmWAAI7GPI.mp4";
 import ceo from "./Assets/Images/user.avif";
-import Trustedby from './Components/Trustedby';
+import Trustedby from './Components/TrustedBy/Trustedby';
 import Footer from "./Components/Footer/Footer";
 import CallToAction from "./Components/CallToAction/CallToAction";
+import Navbar from './Components/Navbar/Navbar';
 
 function App() {
   return (
-    <div>
-      <nav className={classes.nabar}>
-          <div className={classes.nav__container}>
-              <img src={logo} alt="" className={classes.logo} />
-
-              <ul className={classes.nav_links_wrapper}>
-                  <li>Product</li>
-                  <li>Business</li>
-                  <li>Learn</li>
-                  <li>Resourses</li>
-              </ul>
-
-              <div className={classes.nav_action_btn_wrapper}>
-                <a href="mailto: mindforgetechnologies@gmail.com">
-                  <button className={classes.mail_btn}>Mail Us</button>
-                </a>
-              </div>
-          </div>
-      </nav>
+    <div className={classes.app_area}>
+        <Navbar />
 
       <section className={classes.hero_section}>
           <div className={classes.hero_content_wrapper}>

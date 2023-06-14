@@ -1,0 +1,12 @@
+.contact_area{
+    padding-top: 2.7rem;
+}
+
+.map_display_area{
+    background-image: url(./Assets/Images/map\ bg.png);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 45vh;
+    margin: 2rem 0;
+}

@@ -17,6 +17,9 @@ body p{
 input, button, textarea{
     font-family: inherit;
 }
+.app_area{
+    margin-top: 3rem;
+}
 
 .custom_tag{
     padding: 0.5rem 1.2rem;

@@ -1,0 +1,20 @@
+.hero_container{
+    background-image: url(../../Assets/Images/about\ hero.png);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 45vh;
+    margin: 2rem 0;
+}
+.hero_content_wrapper{
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.hero_content_wrapper h2{
+    font-size: 2rem;
+}
