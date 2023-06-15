@@ -11,8 +11,8 @@ function Navbar() {
 
             <ul className={classes.nav_links_wrapper}>
                 <li><Link to="/" className={classes.link}>Home</Link></li>
-                <li><Link to="/" className={classes.link}>About</Link></li>
-                <li><Link to="/" className={classes.link}>Services</Link></li>
+                <li><Link to="/About" className={classes.link}>About</Link></li>
+                <li><Link to="/Services" className={classes.link}>Services</Link></li>
                 <li><Link to="/Contact" className={classes.link}>Contact Us</Link></li>
             </ul>
 

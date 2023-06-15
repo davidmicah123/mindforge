@@ -1,14 +1,14 @@
-import classes from'./CSS/index.module.css';
-import logo from "./Assets/Logos/Logo png01.png";
-import card_bg from "./Assets/Images/9c31e0159999957.63aafa94bdec1.png";
-import hero from "./Assets/Images/hero5.webp";
-import user_img from "./Assets/Images/profile-pic.png";
-import video_slide from "./Assets/video/15534c0cdf1d35ded22cd9442de1aec2_FrhosDmWAAI7GPI.mp4";
-import ceo from "./Assets/Images/user.avif";
-import Trustedby from './Components/TrustedBy/Trustedby';
-import Footer from "./Components/Footer/Footer";
-import CallToAction from "./Components/CallToAction/CallToAction";
-import Navbar from './Components/Navbar/Navbar';
+import classes from'../CSS/index.module.css';
+import logo from "../Assets/Logos/Logo png01.png";
+import card_bg from "../Assets/Images/9c31e0159999957.63aafa94bdec1.png";
+import hero from "../Assets/Images/hero5.webp";
+import user_img from "../Assets/Images/profile-pic.png";
+import video_slide from "../Assets/video/15534c0cdf1d35ded22cd9442de1aec2_FrhosDmWAAI7GPI.mp4";
+import ceo from "../Assets/Images/user.avif";
+import Trustedby from '../Components/TrustedBy/Trustedby';
+import Footer from "../Components/Footer/Footer";
+import CallToAction from "../Components/CallToAction/CallToAction";
+import Navbar from '../Components/Navbar/Navbar';
 
 function App() {
   return (

@@ -1,0 +1,29 @@
+.services_project_section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 3rem 0;
+    padding-bottom: 5rem;
+}
+
+.projects_img_wrapper{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    width: 80vw;
+}
+.project_img_wraper{
+    width: 100%;
+    height: 30vh;
+    overflow: hidden;
+}
+.project_img{
+    width: 100%;
+    height: 100%;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+.project_img:hover{
+    transform: scale(1.2);
+}

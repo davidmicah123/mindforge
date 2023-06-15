@@ -1,9 +1,9 @@
 .contact_area{
-    padding-top: 2.7rem;
+    padding-top: 2.8rem;
 }
 
 .map_display_area{
-    background-image: url(./Assets/Images/map\ bg.png);
+    background-image: url(../Assets/Images/map\ bg.png);
     background-size: cover;
     background-position: center;
     width: 100%;

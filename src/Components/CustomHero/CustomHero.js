@@ -1,14 +1,14 @@
 import React from 'react';
-import classes from "./ContactHero.module.css";
+import classes from "./CustomHero.module.css";
 
-function ContactHero() {
+function CustomHero(props) {
   return (
     <div className={classes.hero_container}>
         <div className={classes.hero_content_wrapper}>
-            <h2>Contact Us</h2>
+            <h2>{props.title}</h2>
         </div>
     </div>
   )
 }
 
-export default ContactHero;
+export default CustomHero;

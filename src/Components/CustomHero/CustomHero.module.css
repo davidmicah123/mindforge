@@ -3,7 +3,7 @@
     background-size: cover;
     background-position: center;
     width: 100%;
-    height: 45vh;
+    height: 65vh;
     margin: 2rem 0;
 }
 .hero_content_wrapper{
@@ -16,5 +16,5 @@
     color: white;
 }
 .hero_content_wrapper h2{
-    font-size: 2rem;
+    font-size: 2.5rem;
 }

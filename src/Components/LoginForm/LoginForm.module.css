@@ -1,9 +1,10 @@
 .login_form{
-    width: 30vw;
-    padding: 1.2rem 1rem;
-    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.123);
+    width: 33vw;
+    padding: 1.5rem 1.7rem;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.055);
     border-radius: 1rem;
-    margin: 7rem auto;
+    margin: 5rem auto;
+    padding-bottom: 2rem;
 }
 .login_form_header{
     text-align: center;
@@ -14,10 +15,30 @@
     flex-direction: column;
     gap: 0.5rem;
     width: 100%;
+    padding-bottom: 0.5rem;
+}
+.single_input_box > label{
+    padding-left: 0.1rem;
 }
 .login_input{
-    padding: 0.3rem;
+    padding: 0.4rem 0.5rem;
     font-size: 1.1rem;
     font-family: inherit;
-    border: 1px solid #eee;
+    border: 1px solid #d4d4d4;
+
+    outline: none;
+}
+.login_input::placeholder{
+    color: #cac9c9;
+}
+
+.form_btn{
+    width: 100%;
+    padding: 0.7rem 0;
+    border: none;
+    background: blue;
+    color: white;
+    border-radius: 0.2rem;
+    font-size: 1.15rem;
+    margin-top: 0.3rem;
 }

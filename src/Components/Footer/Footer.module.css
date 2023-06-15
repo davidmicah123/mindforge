@@ -13,7 +13,7 @@
 .footer_content_wrapper{
     display: flex;
     justify-content: space-between;
-    width: 80vw;
+    width: 84vw;
     padding: 1.5rem 0;
 }
 .company_details_area{
@@ -44,7 +44,7 @@
 .terms_and_condition_container{
     display: flex;
     justify-content: space-between;
-    width: 80vw;
+    width: 84vw;
     font-size: 1.2rem;
     padding: 2rem 0;
     padding-bottom: 2.7rem;
